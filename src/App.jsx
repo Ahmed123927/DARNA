@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DARNA">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
